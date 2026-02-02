@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-02T17:13:09.6683685	Titanium Update/Model Definitions
+// 1.20.1	2026-02-02T21:05:00.1936684	Titanium Update/Model Definitions
 1d5b96f1d36c554d186ad28b90ffdbf79e37d28e assets\titanium-update\models\item\armor\titanium_alloy_boots_iron_trim.json
 eed79d4fe28a22a8af936800656875e0fefe6fa1 assets\titanium-update\models\block\food\blueberry_bush_stage1.json
 e853685011d5ef06cffa4201943316033a46d355 assets\titanium-update\models\item\tools\titanium_alloy_sword.json
@@ -18,6 +18,7 @@ b6c655283f873b5363939a79aabd3a3f4c8fc296 assets\titanium-update\models\block\foo
 5e65b4b6baef78ff8c9f470d45d7275cd4ca783a assets\titanium-update\models\item\wood\pine_leaves.json
 90305fc7bfcfcfdee9cee1702b30faef4dcff1c3 assets\titanium-update\models\item\armor\titanium_alloy_boots_gold_trim.json
 ce343515c155aec6866aefbf4270f5f15e10e507 assets\titanium-update\models\item\armor\titanium_alloy_helmet_copper_trim.json
+a03233c6330d5a6dfc448ae077764be03467d816 assets\titanium-update\blockstates\building\titanium_sofa.json
 a715b9b0b123b76a943dde7b48b66971d85a7bbf assets\titanium-update\models\block\wood\stripped_pine_log.json
 072d9d97a341c2bfd710a899974dc290afe8322f assets\titanium-update\models\block\ore\titanium_block.json
 e0812cfefc407cf462d36578566185d392628b11 assets\titanium-update\models\item\building\pine_slab.json
@@ -34,6 +35,7 @@ d20b8bfab197f93f2956f3c7c1f4bfbaa8aa091e assets\titanium-update\models\block\bui
 d2bfc815b77c0c31a6dbb70ea8659c33bb13ecd6 assets\titanium-update\models\item\building\pine_stairs.json
 b10f627d19f2d2c4564cffee1885f76998f3fde1 assets\titanium-update\models\item\ore\deepslate_titanium_ore.json
 8994a97caf366bff207875dbdf6db0ab2269d2c2 assets\titanium-update\models\item\armor\titanium_alloy_leggings_gold_trim.json
+7f408ee711fe2ef1455d71d462934d4492128d7c assets\titanium-update\models\item\building\titanium_sofa.json
 d9976829ce975fb9750558d0281cae3fb37bcb2a assets\titanium-update\blockstates\food\blueberry_bush.json
 be0c0a8353eee3aed072fadac356ed26f59e2e27 assets\titanium-update\models\item\wood\stripped_pine_log.json
 898a2be97d8604ca7496bf795554292bbb076c6f assets\titanium-update\models\item\armor\titanium_alloy_chestplate_lapis_trim.json
@@ -75,12 +77,12 @@ a2395ab2874a3c238f7d0c86ca44c813c8946064 assets\titanium-update\models\block\bui
 6bb1567f2c1147c23d7a703945ae63bd6a732058 assets\titanium-update\models\item\building\pine_button.json
 96d11020de536bb411ae31897a148c359b042fd7 assets\titanium-update\models\block\building\pine_slab_top.json
 47bb0d1de466cc10f2951129cf4a7bc9c207392f assets\titanium-update\models\item\armor\titanium_alloy_boots.json
-8f9a279a2ad61ea513ca8f0599465ae132bef460 assets\titanium-update\models\item\armor\titanium_alloy_helmet.json
 db62d9b55556e6ed2297b534e6f057d6c3870ae0 assets\titanium-update\models\item\food\strawberries.json
 0543836115ed08e695e8e2c9aa97862d865444e8 assets\titanium-update\models\item\wood\pine_wood.json
+8f9a279a2ad61ea513ca8f0599465ae132bef460 assets\titanium-update\models\item\armor\titanium_alloy_helmet.json
 29aec342638efae02d04e2dbfa77caf138cabc27 assets\titanium-update\models\item\armor\titanium_alloy_chestplate_gold_trim.json
-d2d0e0b18bb3fb7aa5afdb34cbf49ef1cbaebc08 assets\titanium-update\models\item\tools\titanium_alloy_hoe.json
 9a75cfd209921551393c45573efedf4f6514ead5 assets\titanium-update\models\item\titanium_alloy_ingot.json
+d2d0e0b18bb3fb7aa5afdb34cbf49ef1cbaebc08 assets\titanium-update\models\item\tools\titanium_alloy_hoe.json
 b8fbb1f02c9396b4bd75097fc4929ac1db7dd5bd assets\titanium-update\models\item\armor\titanium_alloy_boots_diamond_trim.json
 ea7803fedcbabf1db85c237f73ee4a05eeb530ee assets\titanium-update\blockstates\building\pine_fence.json
 dd11fb04dae4cca6c109d5447eff5157fa3a0e95 assets\titanium-update\models\item\tools\titanium_alloy_pickaxe.json
@@ -115,8 +117,8 @@ a6517b966c675ebefec74a18b76cfb91147a48d2 assets\titanium-update\blockstates\buil
 039a2f19aeaede084d477ce60d2b81d598a8fd29 assets\titanium-update\models\item\armor\titanium_alloy_leggings_amethyst_trim.json
 7fe9d1822cdd87a5499f767fa50750b39832ddbc assets\titanium-update\models\item\armor\titanium_alloy_leggings_redstone_trim.json
 f17f6174840566345ae4bf4fc86ae994b38606be assets\titanium-update\models\item\armor\titanium_alloy_chestplate_emerald_trim.json
-136405adfc630671aa2d444a03b5965bc07c5307 assets\titanium-update\models\block\building\pine_fence_gate_open.json
 a8205b6b09b6d14d015ac6b9687748019ebf6aca assets\titanium-update\models\block\food\strawberry_bush_stage3.json
+136405adfc630671aa2d444a03b5965bc07c5307 assets\titanium-update\models\block\building\pine_fence_gate_open.json
 7af775561acf476630392167dfea987e78fe3775 assets\titanium-update\models\block\wood\stripped_pine_wood.json
 8bc4027fd69ad7a0622b0a72cb474638cd752a8b assets\titanium-update\models\block\ore\raw_titanium_block.json
 9aaac7739e20c54fef93f2314f83313c5b46d0cd assets\titanium-update\models\block\building\pine_fence_gate_wall_open.json
@@ -127,14 +129,14 @@ a8205b6b09b6d14d015ac6b9687748019ebf6aca assets\titanium-update\models\block\foo
 d295f9cc112dce59c01a14d5c31e7fd84664d1b8 assets\titanium-update\models\block\building\pine_door_bottom_right_open.json
 0f3b66b00e2e19cf610c0298f91c687bdb1ab50d assets\titanium-update\models\item\armor\titanium_alloy_helmet_iron_trim.json
 02a7d38ca708eba49edaf05796b77079e2b8ed8e assets\titanium-update\models\item\armor\titanium_alloy_helmet_quartz_trim.json
-951c5be427b04cc1d7835d3caaf1afd369e27bab assets\titanium-update\blockstates\wood\stripped_pine_wood.json
 5f34b1c76659256395f9e44122366afde826db06 assets\titanium-update\blockstates\building\pine_fence_gate.json
+951c5be427b04cc1d7835d3caaf1afd369e27bab assets\titanium-update\blockstates\wood\stripped_pine_wood.json
 b82010340f00cfdc4f0e3362b605c60a74b5fe92 assets\titanium-update\models\item\armor\titanium_alloy_leggings_quartz_trim.json
 de81fa328a60cb95261d57d5391b691b3c2eeac1 assets\titanium-update\models\item\tools\titanium_alloy_shovel.json
 2452af147094e02e9fca35baee44f53b74bc99f8 assets\titanium-update\blockstates\wood\pine_wood.json
 8eac068562e414fbe9fae55d4d6d33badf74e1d9 assets\titanium-update\models\item\armor\titanium_alloy_boots_quartz_trim.json
-6914241fc4d466f704c5eee153cee7852adfc783 assets\titanium-update\models\item\armor\titanium_alloy_leggings.json
 210274d832c6a290906cfe8c050071e54aaf57e6 assets\titanium-update\models\block\food\blueberry_bush_stage2.json
+6914241fc4d466f704c5eee153cee7852adfc783 assets\titanium-update\models\item\armor\titanium_alloy_leggings.json
 beb3254e0d5d91f399ae23063a3cb702a446a273 assets\titanium-update\blockstates\ore\raw_titanium_block.json
 c74b60c01fb2dc7aa68fabef23b56b6e2c810b61 assets\titanium-update\models\item\lava_coal.json
 a893e46039b94b1f1c580d204a403307adc8d60e assets\titanium-update\models\item\armor\titanium_alloy_boots_netherite_trim.json

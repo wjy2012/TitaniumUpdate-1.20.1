@@ -1,5 +1,7 @@
 package com.wu.datagen;
 
+import com.wu.TitaniumUpdate;
+import com.wu.block.custom.SofaBlock;
 import com.wu.block.modBlockFamilies;
 import com.wu.block.modBlocks;
 import com.wu.item.modItems;
@@ -10,6 +12,11 @@ import net.minecraft.data.client.*;
 import net.minecraft.data.family.BlockFamily;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.state.property.Properties;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.math.Direction;
+
+import java.util.List;
+import java.util.Map;
 
 public class modModelsProvider extends FabricModelProvider {
     public modModelsProvider(FabricDataOutput output) {
@@ -31,6 +38,14 @@ public class modModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(modBlocks.PINE_LOG).log(modBlocks.PINE_LOG).wood(modBlocks.PINE_WOOD);
         blockStateModelGenerator.registerLog(modBlocks.STRIPPED_PINE_LOG).log(modBlocks.STRIPPED_PINE_LOG).wood(modBlocks.STRIPPED_PINE_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(modBlocks.PINE_LEAVES);
+
+
+        Identifier left = new Identifier(TitaniumUpdate.MOD_ID, "block/building/titanium_sofa_left");
+        Identifier right = new Identifier(TitaniumUpdate.MOD_ID, "block/building/titanium_sofa_right");
+        Identifier middle = new Identifier(TitaniumUpdate.MOD_ID, "block/building/titanium_sofa_middle");
+        Identifier single = new Identifier(TitaniumUpdate.MOD_ID, "block/building/titanium_sofa");
+        blockStateModelGenerator.blockStateCollector
+                .accept(createSofaBlockState(modBlocks.TITANIUM_SOFA, left, right, middle, single));
 
         registerBush(blockStateModelGenerator, modBlocks.BLUEBERRY_BUSH);
         registerBush(blockStateModelGenerator, modBlocks.STRAWBERRY_BUSH);
@@ -73,5 +88,47 @@ public class modModelsProvider extends FabricModelProvider {
                                         )
                                 )
                         ));
+    }
+
+    private static BlockStateSupplier createSofaBlockState(Block block, Identifier left, Identifier right, Identifier middle, Identifier single) {
+        return VariantsBlockStateSupplier.create(block)
+                .coordinate(
+                        BlockStateVariantMap.create(SofaBlock.TYPE, Properties.HORIZONTAL_FACING)
+                                .register(SofaBlock.Type.LEFT, Direction.EAST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, left).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                                .register(SofaBlock.Type.LEFT, Direction.SOUTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, left).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                                .register(SofaBlock.Type.LEFT, Direction.WEST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, left).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                                .register(SofaBlock.Type.LEFT, Direction.NORTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, left))
+
+                                .register(SofaBlock.Type.RIGHT, Direction.EAST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, right).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                                .register(SofaBlock.Type.RIGHT, Direction.SOUTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, right).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                                .register(SofaBlock.Type.RIGHT, Direction.WEST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, right).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                                .register(SofaBlock.Type.RIGHT, Direction.NORTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, right))
+
+                                .register(SofaBlock.Type.MIDDLE, Direction.EAST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, middle).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                                .register(SofaBlock.Type.MIDDLE, Direction.SOUTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, middle).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                                .register(SofaBlock.Type.MIDDLE, Direction.WEST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, middle).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                                .register(SofaBlock.Type.MIDDLE, Direction.NORTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, middle))
+
+                                .register(SofaBlock.Type.SINGLE, Direction.EAST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, single).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                                .register(SofaBlock.Type.SINGLE, Direction.SOUTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, single).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                                .register(SofaBlock.Type.SINGLE, Direction.WEST,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, single).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                                .register(SofaBlock.Type.SINGLE, Direction.NORTH,
+                                        BlockStateVariant.create().put(VariantSettings.MODEL, single))
+                );
     }
 }

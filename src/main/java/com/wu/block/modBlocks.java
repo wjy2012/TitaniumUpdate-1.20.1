@@ -1,6 +1,7 @@
 package com.wu.block;
 
 import com.wu.TitaniumUpdate;
+import com.wu.block.custom.SofaBlock;
 import com.wu.block.custom.modBushBlock;
 import com.wu.item.modItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -78,6 +79,9 @@ public class modBlocks {
     public static final Block PINE_TRAPDOOR = modRegisterBlock("building/pine_trapdoor",
             new TrapdoorBlock(AbstractBlock.Settings.copy(PINE_PLANKS).nonOpaque(), BlockSetType.BAMBOO));
 
+    public static final Block TITANIUM_SOFA = modRegisterBlock("building/titanium_sofa",
+            new SofaBlock(AbstractBlock.Settings.copy(modBlocks.TITANIUM_BLOCK).nonOpaque()));
+
 
     public static Block modRegisterBlock(String id, Block block) {
         Registry.register(Registries.ITEM, new Identifier(TitaniumUpdate.MOD_ID, id),
@@ -109,6 +113,7 @@ public class modBlocks {
         entries.add(PINE_TRAPDOOR);
         entries.add(TITANIUM_BLOCK);
         entries.add(TITANIUM_ALLOY_BLOCK);
+        entries.add(TITANIUM_SOFA);
     }
 
 

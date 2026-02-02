@@ -54,6 +54,7 @@ public class modEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(modBlocks.PINE_FENCE_GATE, "Pine Fence Gate");
         translationBuilder.add(modBlocks.PINE_DOOR, "Pine Door");
         translationBuilder.add(modBlocks.PINE_TRAPDOOR, "Pine Trapdoor");
+        translationBuilder.add(modBlocks.TITANIUM_SOFA, "Titanium Sofa");
 
         translationBuilder.add("entity.minecraft.villager.titanium_alloy_scientist", "Titanium Alloy Scientist");
 

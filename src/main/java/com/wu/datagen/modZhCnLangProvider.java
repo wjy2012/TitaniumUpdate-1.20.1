@@ -54,6 +54,7 @@ public class modZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(modBlocks.PINE_FENCE_GATE, "松木栅栏门");
         translationBuilder.add(modBlocks.PINE_DOOR, "松木门");
         translationBuilder.add(modBlocks.PINE_TRAPDOOR, "松木活板门");
+        translationBuilder.add(modBlocks.TITANIUM_SOFA, "钛制沙发");
 
         translationBuilder.add("entity.minecraft.villager.titanium_alloy_scientist", "钛合金科学家");
 

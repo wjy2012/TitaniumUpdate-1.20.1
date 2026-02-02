@@ -76,6 +76,7 @@ public class modItemGroups {
                             entries.add(modBlocks.PINE_FENCE_GATE);
                             entries.add(modBlocks.PINE_DOOR);
                             entries.add(modBlocks.PINE_TRAPDOOR);
+                            entries.add(modBlocks.TITANIUM_SOFA);
                         })
                         .build());
     }
