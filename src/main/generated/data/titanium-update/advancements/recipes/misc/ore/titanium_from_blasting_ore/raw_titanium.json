@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ore/raw_titanium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "titanium-update:ore/raw_titanium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ore/titanium_from_blasting_ore/raw_titanium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ore/raw_titanium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ore/titanium_from_blasting_ore/raw_titanium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

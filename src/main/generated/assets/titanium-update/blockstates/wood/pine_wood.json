@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "titanium-update:block/wood/pine_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "titanium-update:block/wood/pine_wood"
+    },
+    "axis=z": {
+      "model": "titanium-update:block/wood/pine_wood",
+      "x": 90
+    }
+  }
+}

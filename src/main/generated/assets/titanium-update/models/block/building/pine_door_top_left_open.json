@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "titanium-update:block/building/pine_door_bottom",
+    "top": "titanium-update:block/building/pine_door_top"
+  }
+}

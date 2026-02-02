@@ -1,0 +1,14 @@
+// 1.20.1	2026-02-02T17:13:09.6713577	Titanium Update/Tags for minecraft:block
+785a5801c187c5c74a06d59f3a633b5c601c1583 data\minecraft\tags\blocks\logs_that_burn.json
+c94ba655b7e9c4ce7aa7b7b1b57f74a255528b8a data\minecraft\tags\blocks\mineable\pickaxe.json
+2c3ee435771d1cd28d69cef4c1fe1aa44c3fd492 data\minecraft\tags\blocks\fence_gates.json
+c94ba655b7e9c4ce7aa7b7b1b57f74a255528b8a data\minecraft\tags\blocks\needs_diamond_tool.json
+87e6e1da36ad81747373ad2d527db6e9aa9f8eb3 data\minecraft\tags\blocks\wooden_fences.json
+e53f6fa59a306e125127ff8026fdb0fdda64b060 data\minecraft\tags\blocks\sword_efficient.json
+e53f6fa59a306e125127ff8026fdb0fdda64b060 data\minecraft\tags\blocks\mineable\axe.json
+e53f6fa59a306e125127ff8026fdb0fdda64b060 data\minecraft\tags\blocks\fall_damage_resetting.json
+1b1af1de0d1fdb3ae2642098b8b55fb9aa52d378 data\titanium-update\tags\blocks\mod_bushes.json
+e53f6fa59a306e125127ff8026fdb0fdda64b060 data\minecraft\tags\blocks\bee_growables.json
+68ef4f3c65fd3184f1d8ea14d400b85ef198803b data\titanium-update\tags\blocks\mineable\hammer.json
+ffd730937719d0d5377945e562b088a8027d96e0 data\minecraft\tags\blocks\planks.json
+c9af8c66ca4457f6b47f1ae4050c068b7ce61b50 data\titanium-update\tags\blocks\pine_logs.json

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "titanium-update:block/building/pine_pressure_plate"
+    },
+    "powered=true": {
+      "model": "titanium-update:block/building/pine_pressure_plate_down"
+    }
+  }
+}

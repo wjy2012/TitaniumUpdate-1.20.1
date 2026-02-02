@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "titanium-update:item/tools/titanium_alloy_axe"
+  }
+}

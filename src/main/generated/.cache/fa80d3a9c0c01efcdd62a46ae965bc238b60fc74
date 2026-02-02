@@ -1,0 +1,22 @@
+// 1.20.1	2026-02-02T17:13:09.6723551	Titanium Update/Block Loot Tables
+cab27baca11f747bdda3962582326a145ec0dab8 data\titanium-update\loot_tables\blocks\wood\pine_leaves.json
+28d93d63dc5793e7d1ca28a30318ff1169ac5aa9 data\titanium-update\loot_tables\blocks\building\pine_fence_gate.json
+c65c899faeedb976352a3a516e3c9bc7cf7f73af data\titanium-update\loot_tables\blocks\wood\stripped_pine_wood.json
+dfc1cfa099b3024de1c39652975652b5bfc63ceb data\titanium-update\loot_tables\blocks\food\strawberry_bush.json
+6b3f34af344f89bc4c04f4f7bbabc7a97c564a8f data\titanium-update\loot_tables\blocks\building\pine_button.json
+adb387841dc9161b47633b3ab5685c0ee16fb9b6 data\titanium-update\loot_tables\blocks\wood\pine_log.json
+3e127a203fa86eabbac1ff82e281fc2718179b0e data\titanium-update\loot_tables\blocks\wood\pine_planks.json
+5fabe1a068ac9a8a76bc74c06403dc920e661c2e data\titanium-update\loot_tables\blocks\building\pine_fence.json
+22eb13bcf36bc3e7c305df140a38aa4667fd33be data\titanium-update\loot_tables\blocks\ore\deepslate_titanium_ore.json
+d313d3666e39f2ae419db26644947c2cb27b7a0c data\titanium-update\loot_tables\blocks\building\pine_trapdoor.json
+58de2256511af8665e21ddcd2fe0ed445dc2ee2a data\titanium-update\loot_tables\blocks\building\pine_door.json
+c1de14b07fed25bbd1f59357645e9572432cc765 data\titanium-update\loot_tables\blocks\building\pine_stairs.json
+95ff31bc3f8e7c4e7210a5fe9a05ac53fc09fe3b data\titanium-update\loot_tables\blocks\building\pine_pressure_plate.json
+12d6597e8eeadbe64f3da773a2bed7219e636fb1 data\titanium-update\loot_tables\blocks\ore\titanium_ore.json
+861cfed59104b707f651014c187ae70fb603da99 data\titanium-update\loot_tables\blocks\wood\pine_wood.json
+f322c04c4fb34940fc8191fbc4c61cb1349faff4 data\titanium-update\loot_tables\blocks\wood\stripped_pine_log.json
+d61896277bfb93176f4ae1ab8bf78aa0a60b3129 data\titanium-update\loot_tables\blocks\ore\raw_titanium_block.json
+69099d24431112b39308b8868371a04c645fd3b4 data\titanium-update\loot_tables\blocks\building\pine_slab.json
+a0c9355fc39885f624d21de46b5cdbcc00af10ea data\titanium-update\loot_tables\blocks\titanium_alloy_block.json
+0117e76c4b491f1c2577d13ebe3081e2fd213fb9 data\titanium-update\loot_tables\blocks\ore\titanium_block.json
+036226fdc4aaef0d4a6b8b6e03221f3971fa452c data\titanium-update\loot_tables\blocks\food\blueberry_bush.json

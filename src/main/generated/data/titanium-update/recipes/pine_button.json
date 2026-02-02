@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "titanium-update:wood/pine_planks"
+    }
+  ],
+  "result": {
+    "item": "titanium-update:building/pine_button"
+  }
+}

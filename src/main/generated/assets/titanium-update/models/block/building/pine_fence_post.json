@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "titanium-update:block/wood/pine_planks"
+  }
+}

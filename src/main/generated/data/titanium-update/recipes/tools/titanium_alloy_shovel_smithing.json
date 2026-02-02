@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "titanium-update:titanium_alloy_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "result": {
+    "item": "titanium-update:tools/titanium_alloy_shovel"
+  },
+  "template": {
+    "item": "titanium-update:titanium_alloy_upgrade_smithing_template"
+  }
+}

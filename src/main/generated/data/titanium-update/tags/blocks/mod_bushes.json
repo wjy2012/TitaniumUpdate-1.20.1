@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "titanium-update:food/strawberry_bush",
+    "titanium-update:food/blueberry_bush"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "titanium-update:block/building/pine_slab"
+    },
+    "type=double": {
+      "model": "titanium-update:block/wood/pine_planks"
+    },
+    "type=top": {
+      "model": "titanium-update:block/building/pine_slab_top"
+    }
+  }
+}

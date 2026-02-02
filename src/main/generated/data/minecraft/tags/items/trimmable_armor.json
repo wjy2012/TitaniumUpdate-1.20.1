@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "titanium-update:armor/titanium_alloy_helmet",
+    "titanium-update:armor/titanium_alloy_chestplate",
+    "titanium-update:armor/titanium_alloy_leggings",
+    "titanium-update:armor/titanium_alloy_boots"
+  ]
+}

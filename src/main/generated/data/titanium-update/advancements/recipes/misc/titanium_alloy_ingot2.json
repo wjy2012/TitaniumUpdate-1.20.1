@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ore/titanium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "titanium-update:ore/titanium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "titanium-update:titanium_alloy_ingot2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ore/titanium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "titanium-update:titanium_alloy_ingot2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

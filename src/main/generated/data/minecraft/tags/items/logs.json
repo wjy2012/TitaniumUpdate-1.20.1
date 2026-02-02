@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "titanium-update:wood/pine_log",
+    "titanium-update:wood/pine_wood",
+    "titanium-update:wood/stripped_pine_log",
+    "titanium-update:wood/stripped_pine_wood"
+  ]
+}

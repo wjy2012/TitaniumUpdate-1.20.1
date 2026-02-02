@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "titanium-update:block/wood/pine_planks",
+    "side": "titanium-update:block/wood/pine_planks",
+    "top": "titanium-update:block/wood/pine_planks"
+  }
+}

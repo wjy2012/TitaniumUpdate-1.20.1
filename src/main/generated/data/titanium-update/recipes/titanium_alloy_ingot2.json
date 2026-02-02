@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "titanium-update:ore/titanium"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "titanium-update:food/blueberries"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "titanium-update:titanium_alloy_ingot"
+  }
+}

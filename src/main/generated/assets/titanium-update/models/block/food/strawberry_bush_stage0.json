@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "titanium-update:block/food/strawberry_bush_stage0"
+  }
+}

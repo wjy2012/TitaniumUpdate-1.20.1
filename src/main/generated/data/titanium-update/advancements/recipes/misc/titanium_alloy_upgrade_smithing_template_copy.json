@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "titanium-update:titanium_alloy_upgrade_smithing_template_copy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_alloy_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "titanium-update:titanium_alloy_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_titanium_alloy_upgrade_smithing_template",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "titanium-update:titanium_alloy_upgrade_smithing_template_copy"
+    ]
+  },
+  "sends_telemetry_event": false
+}

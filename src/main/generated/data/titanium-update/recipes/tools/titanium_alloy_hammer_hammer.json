@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "titanium-update:titanium_alloy_ingot"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "XOX",
+    " | ",
+    " | "
+  ],
+  "result": {
+    "item": "titanium-update:tools/titanium_alloy_hammer"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "0": {
+      "item": "titanium-update:ore/titanium"
+    },
+    "1": {
+      "item": "titanium-update:titanium_alloy_upgrade_smithing_template"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "d1d",
+    "d0d",
+    "ddd"
+  ],
+  "result": {
+    "count": 2,
+    "item": "titanium-update:titanium_alloy_upgrade_smithing_template"
+  },
+  "show_notification": true
+}
