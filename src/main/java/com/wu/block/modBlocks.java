@@ -1,10 +1,8 @@
 package com.wu.block;
 
 import com.wu.TitaniumUpdate;
-import com.wu.block.custom.SofaBlock;
-import com.wu.block.custom.modBlueberryBushBlock;
-import com.wu.block.custom.modStrawberryBushBlock;
-import com.wu.item.modItems;
+import com.wu.block.custom.*;
+import com.wu.block.custom.LightBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
@@ -20,7 +18,7 @@ import static net.minecraft.block.Blocks.createWoodenButtonBlock;
 
 public class modBlocks {
     public static final Block TITANIUM_BLOCK = modRegisterBlock("ore/titanium_block", new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK)));
-    public static final Block TITANIUM_ALLOY_BLOCK = modRegisterBlock("titanium_alloy_block", new Block(AbstractBlock.Settings.copy(Blocks.ANCIENT_DEBRIS)));
+    public static final Block TITANIUM_ALLOY_BLOCK = modRegisterBlock("titanium_alloy_block", new TitaniumAlloyBlock(AbstractBlock.Settings.copy(Blocks.ANCIENT_DEBRIS)));
     public static final Block TITANIUM_ORE = modRegisterBlock("ore/titanium_ore", new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_ORE)));
     public static final Block DEEPSLATE_TITANIUM_ORE = modRegisterBlock("ore/deepslate_titanium_ore", new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_DIAMOND_ORE)));
     public static final Block RAW_TITANIUM_BLOCK = modRegisterBlock("ore/raw_titanium_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(5.0F, 6.0F)));
