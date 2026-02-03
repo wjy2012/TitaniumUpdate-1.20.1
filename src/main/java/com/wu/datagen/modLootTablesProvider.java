@@ -1,6 +1,6 @@
 package com.wu.datagen;
 
-import com.wu.block.custom.modBushBlock;
+import com.wu.block.custom.modBlueberryBushBlock;
 import com.wu.block.modBlocks;
 import com.wu.item.modItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -58,7 +58,7 @@ public class modLootTablesProvider extends FabricBlockLootTableProvider {
                 block, LootTable.builder()
                         .pool(LootPool.builder()
                                 .conditionally(
-                                        BlockStatePropertyLootCondition.builder(bushBlock).properties(StatePredicate.Builder.create().exactMatch(modBushBlock.AGE, 3))
+                                        BlockStatePropertyLootCondition.builder(bushBlock).properties(StatePredicate.Builder.create().exactMatch(modBlueberryBushBlock.AGE, 3))
                                 )
                                 .with(ItemEntry.builder(item))
                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
@@ -66,7 +66,7 @@ public class modLootTablesProvider extends FabricBlockLootTableProvider {
                         )
                         .pool(LootPool.builder()
                                 .conditionally(
-                                        BlockStatePropertyLootCondition.builder(bushBlock).properties(StatePredicate.Builder.create().exactMatch(modBushBlock.AGE, 2))
+                                        BlockStatePropertyLootCondition.builder(bushBlock).properties(StatePredicate.Builder.create().exactMatch(modBlueberryBushBlock.AGE, 2))
                                 )
                                 .with(ItemEntry.builder(item))
                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))

@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-02T21:05:00.1986543	Titanium Update/Recipes
+// 1.20.1	2026-02-03T15:47:58.9094341	Titanium Update/Recipes
 7ec87e464c8448e0e8550310ccdba1f2f8fd1270 data\titanium-update\recipes\pine_button.json
 79fd07f9cabb30d4970e0dafb8aa1412b3814a88 data\titanium-update\recipes\pine_pressure_plate.json
 afecf2b28149b6c57fb1bc4430d290fc4f283d87 data\titanium-update\recipes\tools\titanium_alloy_pickaxe_smithing.json
@@ -59,5 +59,5 @@ f3f4f716eca5bbf7f583ac44c1b53df99979c316 data\titanium-update\recipes\ore\titani
 593975758cd09e994535330e4b08a904f240cb38 data\titanium-update\advancements\recipes\combat\armor\titanium_alloy_boots_smithing.json
 e7cd1b98a7c5876a0556570cdbe37d72e6723776 data\titanium-update\recipes\armor\titanium_alloy_boots_smithing.json
 877af7ed111b19efe85076146a6aff01f4a0cc54 data\titanium-update\recipes\ore\titanium_from_blasting_ore\titanium_ore.json
-3816461b6a3407b5b92f0499e95e4edb8ce8a59a data\titanium-update\advancements\recipes\building_blocks\ore\raw_titanium.json
 a3e57cdb7506282694f974cf819f5fc70d2d11c7 data\titanium-update\recipes\ore\raw_titanium.json
+3816461b6a3407b5b92f0499e95e4edb8ce8a59a data\titanium-update\advancements\recipes\building_blocks\ore\raw_titanium.json

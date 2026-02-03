@@ -2,7 +2,8 @@ package com.wu.block;
 
 import com.wu.TitaniumUpdate;
 import com.wu.block.custom.SofaBlock;
-import com.wu.block.custom.modBushBlock;
+import com.wu.block.custom.modBlueberryBushBlock;
+import com.wu.block.custom.modStrawberryBushBlock;
 import com.wu.item.modItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -26,28 +27,20 @@ public class modBlocks {
 
     public static final Block BLUEBERRY_BUSH = modRegisterBlock(
             "food/blueberry_bush",
-            new modBushBlock(
-                    AbstractBlock.Settings.create()
-                            .mapColor(MapColor.DARK_GREEN)
-                            .ticksRandomly()
-                            .noCollision()
-                            .sounds(BlockSoundGroup.SWEET_BERRY_BUSH)
-                            .pistonBehavior(PistonBehavior.DESTROY),
-                    modItems.BLUEBERRIES
-            )
-    );
+            new modBlueberryBushBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .ticksRandomly()
+                    .noCollision()
+                    .sounds(BlockSoundGroup.SWEET_BERRY_BUSH)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block STRAWBERRY_BUSH = modRegisterBlock(
             "food/strawberry_bush",
-            new modBushBlock(
-                    AbstractBlock.Settings.create()
-                            .mapColor(MapColor.DARK_GREEN)
-                            .ticksRandomly()
-                            .noCollision()
-                            .sounds(BlockSoundGroup.SWEET_BERRY_BUSH)
-                            .pistonBehavior(PistonBehavior.DESTROY),
-                    modItems.STRAWBERRIES
-            )
-    );
+            new modStrawberryBushBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .ticksRandomly()
+                    .noCollision()
+                    .sounds(BlockSoundGroup.SWEET_BERRY_BUSH)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block PINE_LOG = modRegisterBlock("wood/pine_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));

@@ -1,6 +1,7 @@
 package com.wu;
 
 import com.wu.block.modBlocks;
+import com.wu.entity.modEntities;
 import com.wu.item.modItemGroups;
 import com.wu.item.modItems;
 import com.wu.sound.modSoundEvents;
@@ -36,6 +37,7 @@ public class TitaniumUpdate implements ModInitializer {
         modTrades.registerModTrades();
         modVillagers.registerVillagers();
         modSoundEvents.registerSounds();
+        modEntities.registerEntities();
 
 
         StrippableBlockRegistry.register(modBlocks.PINE_LOG, modBlocks.STRIPPED_PINE_LOG);
