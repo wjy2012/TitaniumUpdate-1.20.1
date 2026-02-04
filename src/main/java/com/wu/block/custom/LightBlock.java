@@ -8,14 +8,20 @@ import net.minecraft.state.property.Properties;
 
 public class LightBlock extends Block {
     public static BooleanProperty LIT = Properties.LIT;
+    public static int LightLevel;
 
-    public LightBlock(Settings settings, boolean defaultLit) {
-        super(settings.luminance(state -> state.get(LIT) ? 15 : 0));
+    public LightBlock(Settings settings, boolean defaultLit, int lightLevel) {
+        super(settings.luminance(state -> state.get(LIT) ? lightLevel : 0));
+        LightLevel = lightLevel;
         this.setDefaultState(this.getDefaultState().with(LIT, defaultLit));
     }
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(LIT);
+    }
+
+    public static int getMaxLightLevel() {
+        return LightLevel;
     }
 }
